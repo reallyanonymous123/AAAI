@@ -10,6 +10,15 @@ conda create -n aaai python=3.8
 conda activate aaai
 pip install -r requirements.txt  # install
 ```
+
+Please locate the package directory of your Anaconda virtual environment, and replace the following file:
+
+`your_envs\Lib\site-packages\torch\nn\modules\dropout.py`
+
+with the modified version of `dropout.py` provided in this repository.
+
+The `dropout.py` file can be found in the **root directory** of this repository.
+
 # Datasets
 
 Please prepare the data in the YOLO dataset format. We will provide the preprocessed data, including images and labels, which can be directly used for training. Additionally, we will also provide the trained weights, which can be directly used for testing.

@@ -1,4 +1,4 @@
-name: Hyper-YOLO
+name: aaai
 channels:
   - defaults
 dependencies:
